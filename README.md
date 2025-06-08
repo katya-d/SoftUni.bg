@@ -1,7 +1,7 @@
-# 🎓 Software Engineering with JavaScript - SoftUni Course Solutions
+# 🎓 JavaScript Programming - SoftUni Course Solutions
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="Course Icon" width="100" height="100"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Course Icon" width="100" height="100"/>
   
   [![SoftUni](https://img.shields.io/badge/SoftUni-Course-blue)](https://softuni.bg/)
   [![Year](https://img.shields.io/badge/Year-2025-orange)](https://softuni.bg/)
@@ -11,27 +11,31 @@
 
 ## 📚 About This Repository
 
-This repository contains my solutions and projects from the Programming courses with JavaScript at SoftUni.
+This repository contains my solutions and projects from the JavaScript Programming courses at SoftUni. The courses covers modern JavaScript development, from basics to advanced topics including frameworks and libraries.
 
 This repository is part of my journey at **[Software University (SoftUni)](https://softuni.bg/)**, one of Bulgaria's leading institutions for software engineering education.
 
 ## 👨‍💻 Student Information
 
 - **Student:** Katya Delieva
-- **Course:** Software Engineering with JavaScript
+- **Course:** JavaScript Programming
 - **Academic Year:** 2025
 - **Institution:** Software University (SoftUni)
 
 ## 🛠️ Technologies & Tools
 
 ```
-JavaScript, Visual Studio Code
+JavaScript, HTML5, CSS3, Node.js, React, DOM Manipulation
 ```
 
 ## ⭐ Course Highlights
 
-- JavaScript Basics
-- JavaScript Fundamentals
+- ES6+ Features
+- Asynchronous Programming
+- HTTP Requests
+- DOM Events
+- Object-Oriented Programming
+- Functional Programming
 
 ## 📂 Repository Structure
 
@@ -47,8 +51,9 @@ SoftUni.bg/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Visual Studio 2022 or later
-- .NET 6.0 or later
+- Node.js (v14 or later)
+- Modern web browser
+- Code editor (VS Code recommended)
 
 ### Running the Projects
 1. Clone this repository
@@ -59,8 +64,14 @@ SoftUni.bg/
    ```bash
    cd SoftUni.bg
    ```
-3. Open the solution in Visual Studio
-4. Build and run the project
+3. Install dependencies (for Node.js projects)
+   ```bash
+   npm install
+   ```
+4. Run the project
+   ```bash
+   npm start
+   ```
 
 ## 📈 Progress Tracking
 
