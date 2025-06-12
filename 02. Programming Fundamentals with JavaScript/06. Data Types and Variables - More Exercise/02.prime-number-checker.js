@@ -3,7 +3,6 @@ function primeNumberChecker(num) {
         console.log(true)
     }else {
         console.log(false);
-        
     }
 }
 
