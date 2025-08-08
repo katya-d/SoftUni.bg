@@ -25,7 +25,7 @@ This repository is part of my journey at **[Software University (SoftUni)](https
 ## 🛠️ Technologies & Tools
 
 ```
-JavaScript, HTML5, CSS3, Node.js, React, DOM Manipulation
+JavaScript, HTML5, CSS3, React, DOM Manipulation
 ```
 
 ## ⭐ Course Highlights
@@ -41,9 +41,9 @@ JavaScript, HTML5, CSS3, Node.js, React, DOM Manipulation
 
 ```
 SoftUni.bg/
-├── 📁 Lectures/              # Lecture exercises and examples
-├── 📁 Exercises/             # Homework assignments
-├── 📁 Exams/                 # Exam preparations and solutions
+├── 📁 Courses/              # Courses from the SoftUni Program
+  ├──📁 Exercises/             # Homework assignments
+  ├── 📁 Exams/                 # Exam preparations and solutions
 ├── 📁 Projects/              # Course projects
 └── 📄 README.md              # This file
 ```
@@ -51,27 +51,8 @@ SoftUni.bg/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v14 or later)
 - Modern web browser
 - Code editor (VS Code recommended)
-
-### Running the Projects
-1. Clone this repository
-   ```bash
-   git clone https://github.com/yourusername/SoftUni.bg.git
-   ```
-2. Navigate to the project directory
-   ```bash
-   cd SoftUni.bg
-   ```
-3. Install dependencies (for Node.js projects)
-   ```bash
-   npm install
-   ```
-4. Run the project
-   ```bash
-   npm start
-   ```
 
 ## 📈 Progress Tracking
 
