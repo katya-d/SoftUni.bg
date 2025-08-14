@@ -18,7 +18,7 @@ function loadingBar(n) {
         
     }else {
         console.log('100% Complete!');
-        
+        console.log(`[${percentSymbol}${dotsSymbol}]`);
     }
 }
 
