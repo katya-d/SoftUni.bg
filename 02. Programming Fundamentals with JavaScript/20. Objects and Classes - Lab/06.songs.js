@@ -1,47 +1,30 @@
-function songs(input) {
-    let numberOfSongs = Number(input.shift());
+function songs(arrData) {
+  let numberOfSongs = Number(arrData.shift());
+  let typeOfTheList = arrData.pop();
 
-    let songsList;
-
-    class Song {
-        constructor(type, name, time) {
-            this.type = type;
-            this.name = name;
-            this.time = time;
-        }
-
-        returnType() {
-            return `${type}`;
-        }
-
-         returnName() {
-            return `${name}`;
-        }
-
-         returnTime() {
-            return `${time}`;
-        }
+  class Song {
+    constructor(typeList, name, time) {
+      this.typeList = typeList;
+      this.name = name;
+      this.time = time;
     }
+  }
 
-    let typeListName = input[input.length - 1];
+  for (let i = 0; i < numberOfSongs; i++) {
+    let parts = arrData[i].split("_");
 
-    for(let i = 0; i < numberOfSongs; i++) {
-        let data = input[i].split('_');
-    
-        type = data[0];
-        name = data[1];
-        time = data[2];
+    let songAlbum = parts[0];
+    let songName = parts[1];
+    let songTime = parts[2];
 
-        let typeList = new Song(type);
-        songsList = new Song(name);
-        let timeList = new Song(time);
+    let newSong = new Song(songAlbum, songName, songTime);
 
-        if(typeListName === 'all') {
-            console.log(typeList.returnName());
-        }else if(typeListName === typeList.returnType()) {
-            console.log(typeList.returnName());
-        }
-    }  
+    if (typeOfTheList === "all") {
+      console.log(newSong.name);
+    } else if (newSong.typeList === typeOfTheList) {
+      console.log(newSong.name);
+    }
+  }
 }
 
 songs([
